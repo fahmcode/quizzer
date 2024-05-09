@@ -1,6 +1,4 @@
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . '/quizzer/inc/header.inc.php';
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/quizzer/inc/header.inc.php'; ?>
 
     <header>
       <div class="one">
@@ -14,8 +12,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/quizzer/inc/header.inc.php';
     </header>
 
     <main>
-
-
         <div class="form-container">
           <form class="login-form" action="" method="post">
             <h2>Login to continue</h2>
@@ -27,7 +23,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/quizzer/inc/header.inc.php';
             <button type="submit" class="btn btn-primary">Log in</button>
           </form>
         </div>
-
     </main>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/quizzer/inc/footer.inc.php'; ?>
